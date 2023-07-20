@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* font-family: 'Lato', sans-serif; */
+:root{
+    --letra: #c2706f;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 50%;
+}
+/* HEADER */
+header{
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 0px 2px 12px 0px black;
+}
+header > nav{
+    display: none;
+}
+.logo-pompeo{
+    font-family: 'Pacifico', cursive;
+}
+/* BLOCO 1 */
+#bloco1{
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    background-image: url(img/background1.jpeg);
+    text-align: center;
+}
+.especifico{
+    color:var(--letra);
+}
+#bloco1 > div > p{
+    color: rgba(0, 0, 0, 0.589);
+}
+#bloco1 > div > h1{
+    background-color: lightgoldenrodyellow;
+    padding: 0px 70px 10px 70px;
+    font-size: 2.4em;
+}
