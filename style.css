@@ -74,7 +74,7 @@ body{
     align-items: center;
     gap: 20px;
     padding: 100px 0px;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.103);
+    
 }
 .circle{
     border-radius: 50%;
@@ -84,6 +84,9 @@ body{
     text-align: start;
     padding: 0px 90px 0px 30px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .caixa > h1{
     font-size: 1.7em;
@@ -91,6 +94,8 @@ body{
 /* BLOCO 3 */
 #bloco3{
     padding: 100px 0px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.103);
+    border-top: solid 1px rgba(0, 0, 0, 0.103);
 }
 .caixa > p{
     color: rgba(0, 0, 0, 0.603);
@@ -98,7 +103,43 @@ body{
 .caixa > a{
     text-decoration: none;
     color: black;
+    
 }
-.caix > a:hover{
+.caixa > a:hover{
     text-decoration: underline;
+}
+#sec-especifico{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+#sec-especifico > img{
+    width: 70%;
+    margin-top: 100px;
+}
+/* BLOCO 4 */
+#bloco4{
+    padding: 100px 0px 100px 0px;
+}
+#bloco4 > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.produto{
+    width: 70%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.411);
+}
+.produto > img{
+    width: 100%;
+}
+.info{
+    text-align: start;
+    padding: 20px 0px;
+}
+/* BLOCO 5 */
+#bloco5{
+    background-color: #c2706f;
+    background-image: url();
 }
