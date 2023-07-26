@@ -1,0 +1,85 @@
+@media (min-width: 481px){
+
+    header{
+        box-shadow: none;
+    }
+    /* BLOCO 2 */
+    #bloco2{
+        
+    }
+    #circulos{
+        flex-direction: row;
+        width: 80%;
+        gap: 28px;
+    }
+    #bloco2 > section{
+        display: flex;
+        flex-direction: row;
+    }
+    /* BLOCO 3 */
+    #bloco3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #bloco3 > section{
+        display: flex;
+        width: 75%;
+        align-items: center;
+    }
+    #sec-especifico{
+        flex-direction: row;
+    }
+    
+    #sec-especifico > img{
+        width: 100%;
+    }
+    #bloco3 > section >  .caixa{
+        padding: 0px;
+    }
+    /* BLOCO 4 */
+    #bloco4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    #bloco4 > section{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .produto{
+        width: 28%;
+    }
+    #bloco4 > button{
+        margin-top: 40px;
+    }
+    /* BLOCO 5 */
+    #bloco5{
+        padding-right: 400px;
+    }
+    /* BLOCO 6 */
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    form > input{
+        margin: 0px;
+        width: 30%;
+    }
+    /* BLOCO 7 */
+    #bloco7 > p{
+        padding: 0px 200px;
+    }
+    #bloco7 > section{
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+}
